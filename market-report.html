@@ -3,54 +3,76 @@
 <head>
   <meta charset="UTF-8">
   <title>Exceptional Realty Group - Luxury Homes - Market Report</title>
+<<<<<<< HEAD
       <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+=======
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"></script>
+>>>>>>> navbar-and-background-styles
 </head>
 <body>
-  <header>
-    <div id="logo">
-      <h1>Exceptional</h1>
-      <h2>Realty Group</h2>
-    </div>
+  <div id="social">
+    <a href="#">Twitter</a>
+    <a href="#">Facebook</a>
+    <a href="#">Google Plus</a>
+  </div>
 
-    <nav>
-      <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
-    </nav>
-  </header>
+  <div class="white-wood">
+    <header>
+      <div class="wrapper">
+        <div id="logo">
+          <h1>Exceptional</h1>
+          <h2>Realty Group</h2>
+        </div>
+      </div><!-- .wrapper -->
+      <div id="navbar">
+        <div class="wrapper">
+          <nav>
+            <a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a class="selected" href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+          </nav>
+        </div><!-- .wrapper -->
+      </div><!-- #navbar -->
+    </header>
 
-  <section>
-    <h3>Market Report</h3>
-    <table>
-      <tr>
-        <th>Address</th>
-        <th>City</th>
-        <th>State</th>
-        <th>Sales Price</th>
-      </tr>
-      <tr>
-        <td>2345 Fairview Ln.</td>
-        <td>Brooklyn</td>
-        <td>NY</td>
-        <td>$1.2 mil</td>
-      </tr>
-      <tr>
-        <td>974 Clapton St.</td>
-        <td>Queens</td>
-        <td>NY</td>
-        <td>$998 k</td>
-      </tr>
-      <tr>
-        <td>14A Belmont Way</td>
-        <td>Bronx</td>
-        <td>NY</td>
-        <td>$874 k</td>
-      </tr>
-    </table>
-  </section>
+    <div class="wrapper clearfix">
+      <section class="col-3 first shadow">
+        <h3>Market Report</h3>
+        <table>
+          <tr>
+            <th>Address</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Sales Price</th>
+          </tr>
+          <tr>
+            <td>2345 Fairview Ln.</td>
+            <td>Brooklyn</td>
+            <td>NY</td>
+            <td>$1.2 mil</td>
+          </tr>
+          <tr>
+            <td>974 Clapton St.</td>
+            <td>Queens</td>
+            <td>NY</td>
+            <td>$998 k</td>
+          </tr>
+          <tr>
+            <td>14A Belmont Way</td>
+            <td>Bronx</td>
+            <td>NY</td>
+            <td>$874 k</td>
+          </tr>
+        </table>
+      </section>
+    </div><!-- .wrapper -->
+  </div><!-- .white-wood -->
 
   <section id="details">
-      <div>
+    <div class="wrapper clearfix">
+      <div class="col-1 first">
         <h3>Contact</h3>
         <p>
           email: <a href="mailto:info@exceptionalrealty.com">info@exceptionalrealty.com</a><br>
@@ -64,7 +86,7 @@
         </address>
       </div>
 
-      <div>
+      <div class="col-1">
         <h3>Links</h3>
         <p>
           <a href="#" target="_blank">Home Restoration</a><br>
@@ -72,8 +94,8 @@
           <a href="#" target="_blank">Professional Moving Crew</a>
         </p>
       </div>
-      
-      <div>
+
+      <div class="col-1">
         <h3>Follow</h3>
         <p>
           <a href="#" target="_blank">Youtube</a><br>
@@ -81,11 +103,12 @@
           <a href="#" target="_blank">Twitter</a>
         </p>
       </div>
-    </section>
+    </div><!-- .wrapper -->
+  </section>
 
-    <footer>
-      &copy; 2014 Exceptional Realty. All Rights Reserved.
-    </footer>
+  <footer>
+    &copy; 2014 Exceptional Realty. All Rights Reserved.
+  </footer>
   
 </body>
 </html>
